@@ -150,7 +150,7 @@ function displayIcon() {
   }
 
   //una funzione che viene mostrata alla fine quando sono tutte le risposte esatte
-  if (count === 2) {
+  if (count === 24) {
     let tempoTrascorso = document.querySelector('#tempoTrascorso')
     modal.classList.add('active')
     tempoTrascorso.innerHTML = timer.innerHTML
